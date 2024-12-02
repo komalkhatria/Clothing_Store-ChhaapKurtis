@@ -39,3 +39,52 @@ html {
     justify-content: space-evenly;
 }
 
+
+/* style for hero section */
+.hero{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+    background-color: #fcbacc;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.hero-content h1{
+  text-transform: uppercase;
+  font-size: 48px;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.hero-content p{
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.hero-content button{
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 5px;
+    align-self: flex-start;
+}
+
+.hero-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hero-images img{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+}
+
